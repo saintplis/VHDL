@@ -1,0 +1,21 @@
+v 4
+file . "maquinaEstado.vhdl" "ce1ac0c0db1497a3c208fc4fad2eb548a2d5bdc3" "20240314180037.956":
+  entity me at 1( 0) + 0 on 325;
+  architecture arch_me of me at 13( 219) + 0 on 326;
+file . "ccPE.vhdl" "0ff14840480c68e454fde560b71453060694c8a7" "20240314180037.949":
+  entity ccpe at 1( 0) + 0 on 319;
+  architecture storage of ccpe at 12( 198) + 0 on 320;
+file . "bancoRegs.vhdl" "b556206b8ef54947fac46cfd68356f4ad4015497" "20240314180037.945":
+  entity reg at 2( 70) + 0 on 315;
+  architecture storage of reg at 13( 298) + 0 on 316;
+file . "ccEA.vhdl" "a2105af9069e877b87890b61e5dc8c7a8191f72f" "20240314180037.947":
+  entity ccea at 1( 0) + 0 on 317;
+  architecture ea of ccea at 13( 216) + 0 on 318;
+file . "ffjk.vhdl" "59ea379f3f8ee40b4457beed449fca1c9175e857" "20240314180037.954":
+  entity ffjk at 2( 70) + 0 on 321;
+  architecture latch of ffjk at 14( 316) + 0 on 322;
+  entity ffd at 72( 2349) + 0 on 323;
+  architecture latch of ffd at 84( 2594) + 0 on 324;
+file . "tb_maquinaEstado.vhdl" "4908ffb969eb3f731ad90d275e1a410b764972cd" "20240314180037.965":
+  entity tb_me at 1( 0) + 0 on 327;
+  architecture search of tb_me at 8( 99) + 0 on 328;

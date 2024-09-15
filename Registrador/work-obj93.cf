@@ -1,0 +1,16 @@
+v 4
+file . "tb_registrador_4bits.vhdl" "ac53874b26af7312ff2c69ba75db799bc95d160a" "20240223141347.734":
+  entity tb_regcarga4bit at 1( 0) + 0 on 63;
+  architecture test of tb_regcarga4bit at 8( 102) + 0 on 64;
+file . "registrador_4bits.vhdl" "88e0171a55a54b43e5bf973554fa27b5efc3d3da" "20240223141347.732":
+  entity regcarga4bit at 1( 0) + 0 on 59;
+  architecture reg4bit of regcarga4bit at 14( 277) + 0 on 60;
+file . "tb_registrador_1bit.vhdl" "a7a6f3ca36ff2af27b76a29290e2d68e6ab4a538" "20240223141347.733":
+  entity tb_regcarga1bit at 1( 0) + 0 on 61;
+  architecture test of tb_regcarga1bit at 8( 118) + 0 on 62;
+file . "registrador_1bit.vhdl" "30ad2b7cb073760515859b92d8e6b64e25f742c6" "20240223141347.732":
+  entity regcarga1bit at 1( 0) + 0 on 57;
+  architecture reg1bit of regcarga1bit at 14( 245) + 0 on 58;
+file . "ffjk_d.vhdl" "cfa76e242ac0033cb3c86df2e7d2cc2d6f88f45a" "20240223141347.731":
+  entity ffjk_d at 1( 0) + 0 on 55;
+  architecture ff of ffjk_d at 13( 213) + 0 on 56;

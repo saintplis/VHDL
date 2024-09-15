@@ -1,0 +1,113 @@
+v 4
+file . "mux11x11.vhdl" "b9a30ecc1a0ff3b64a2d8745dfd76cb1f82abad5" "20240519024446.266":
+  entity mux11x11 at 1( 0) + 0 on 1387;
+  architecture saida of mux11x11 at 23( 798) + 0 on 1388;
+file . "tb_ula.vhdl" "161e94f72ce39027c7b7c783d3454632eff3c102" "20240519201008.859":
+  entity tb_ula at 24( 1105) + 0 on 2041;
+  architecture quickmath of tb_ula at 31( 1206) + 0 on 2042;
+file . "tb_neander.vhdl" "2b1bf01ded7b40f1510b5899968620efc6da095f" "20240519201008.857":
+  entity tb_moduloulamem at 24( 1174) + 0 on 2039;
+  architecture quickmath of tb_moduloulamem at 30( 1273) + 0 on 2040;
+file . "somador.vhdl" "759782dce0ff5615f24309094446c72be4323a75" "20240519201008.853":
+  entity somador_8bits at 5( 67) + 0 on 2035;
+  architecture computar of somador_8bits at 14( 259) + 0 on 2036;
+file . "rem.vhdl" "01a7cd4a48c883029471276a4d7f7db796818216" "20240519201008.852":
+  entity regrem at 1( 0) + 0 on 2033;
+  architecture reg8rem of regrem at 14( 281) + 0 on 2034;
+file . "regAC.vhdl" "1a479c5a9d52ec3aecb01397c2013c1b6ee3ad77" "20240519201008.848":
+  entity regac at 1( 0) + 0 on 2025;
+  architecture reg8b of regac at 14( 269) + 0 on 2026;
+file . "rdm.vhdl" "9ae307c81c7d1caa56dd6e9bb11332058ff76704" "20240519201008.846":
+  entity regrdm at 1( 0) + 0 on 2021;
+  architecture reg8rdm of regrdm at 14( 281) + 0 on 2022;
+file . "neander.vhdl" "9418e0393ed2c27b7c3049623a78ce4992067778" "20240519201008.839":
+  entity neander at 1( 0) + 0 on 2011;
+  architecture modneander of neander at 9( 129) + 0 on 2012;
+file . "moduloULA.vhdl" "0ac323758cb2851cd9a344f72feb7c2131d856b4" "20240519201008.836":
+  entity moduloula at 1( 0) + 0 on 2007;
+  architecture alu of moduloula at 13( 293) + 0 on 2008;
+file . "moduloULAinterno.vhdl" "061f3fdd5bfce7891732abdfcd2640ecfd42211a" "20240519201008.835":
+  entity moduloulainterno at 1( 0) + 0 on 2005;
+  architecture modalu of moduloulainterno at 13( 303) + 0 on 2006;
+file . "moduloMEM.vhdl" "53b47e32b89bef052e318ccd2c9abd72f4d0c0dc" "20240519201008.833":
+  entity modulomem at 1( 0) + 0 on 2003;
+  architecture modmem of modulomem at 16( 418) + 0 on 2004;
+file . "as_ram.vhdl" "3f73ba77f28abe495e9836860db5e4964f04d021" "20240519201008.819":
+  entity as_ram at 2( 42) + 0 on 1977;
+  architecture behavior of as_ram at 16( 325) + 0 on 1978;
+file . "moduloControle.vhdl" "acd73b3226b7c5b03f7997973a65b27edc9bca89" "20240519201008.832":
+  entity modulocontrole at 1( 0) + 0 on 2001;
+  architecture behavioral of modulocontrole at 17( 421) + 0 on 2002;
+file . "regFLAG.vhdl" "1e8a20c89eb6efe5f3f43915c9266a2b01d6bb5a" "20240519201008.849":
+  entity regflag at 1( 0) + 0 on 2027;
+  architecture reg2b of regflag at 14( 271) + 0 on 2028;
+file . "uc.vhdl" "5ca0544edae1fbc0791a9019d6a62191ceb8f2b9" "20240519201008.861":
+  entity unidadecontrole at 1( 0) + 0 on 2043;
+  architecture behavior of unidadecontrole at 13( 288) + 0 on 2044;
+file . "ffjk.vhdl" "d4b412e6b4e0db48c84417e421e401565e2bf8dd" "20240519201008.827":
+  entity ffjk at 2( 70) + 0 on 1987;
+  architecture latch of ffjk at 14( 316) + 0 on 1988;
+  entity ffd at 72( 2349) + 0 on 1989;
+  architecture latch of ffd at 84( 2594) + 0 on 1990;
+  entity fft at 107( 3127) + 0 on 1991;
+  architecture latch of fft at 119( 3372) + 0 on 1992;
+file . "controlador.vhdl" "f85eac6118285e35aa75f4c282c7c69c3c11c7c2" "20240519201008.822":
+  entity controlador at 1( 0) + 0 on 1981;
+  architecture cont of controlador at 11( 195) + 0 on 1982;
+file . "contador.vhdl" "9cb1d32401f9ce92c1a8522e28a5f20367661e5c" "20240519201008.821":
+  entity contador at 1( 0) + 0 on 1979;
+  architecture cont of contador at 12( 197) + 0 on 1980;
+file . "regPC.vhdl" "ddf2cfcaea364d54645fbcabcce2e19cc9741e2f" "20240519201008.850":
+  entity regpc at 1( 0) + 0 on 2029;
+  architecture reg8b of regpc at 14( 269) + 0 on 2030;
+file . "programCounter.vhdl" "8e785f37b59136849986a47aa2a1f86e23322ec1" "20240519201008.845":
+  entity programcounter at 1( 0) + 0 on 2019;
+  architecture pc of programcounter at 14( 328) + 0 on 2020;
+file . "decodificador.vhdl" "168582e7b5ad854cdd60d04f7acbde151fe63408" "20240519201008.823":
+  entity decodificador at 1( 0) + 0 on 1983;
+  architecture behavioral of decodificador at 11( 227) + 0 on 1984;
+file . "ffjk_d.vhdl" "cfa76e242ac0033cb3c86df2e7d2cc2d6f88f45a" "20240519201008.824":
+  entity ffjk_d at 1( 0) + 0 on 1985;
+  architecture ff of ffjk_d at 13( 213) + 0 on 1986;
+file . "reg1bit.vhdl" "27a46cc464427c0b7ec9c587371f882458b18c07" "20240519201008.847":
+  entity reg1bit at 1( 0) + 0 on 2023;
+  architecture regb1 of reg1bit at 14( 239) + 0 on 2024;
+file . "regRI.vhdl" "809f3470a93d0e4d27c04195673346520afb1c9b" "20240519201008.851":
+  entity regri at 1( 0) + 0 on 2031;
+  architecture reg8b of regri at 14( 269) + 0 on 2032;
+file . "tb_contador.vhdl" "6c7677ec2df10a28f9952f1728c9e9f3bd1026cd" "20240419122441.939":
+  entity tb_contador at 1( 0) + 0 on 89;
+  architecture test of tb_contador at 8( 98) + 0 on 90;
+file . "NEANDER_tb.vhdl" "2988ebf3e8fa21a61c67b354212ef5a2242287ae" "20240519201008.837":
+  entity tb_neander at 3( 160) + 0 on 2009;
+  architecture letsdothis of tb_neander at 9( 249) + 0 on 2010;
+file . "add.vhdl" "aaab4ecd22877591371f09dbd16b412df69ce2b4" "20240519201008.807":
+  entity iadd at 1( 0) + 0 on 1973;
+  architecture behavior of iadd at 11( 186) + 0 on 1974;
+file . "and.vhdl" "b19ca4b63171dd57ee91b6f0bbf8685addef535c" "20240519201008.810":
+  entity iand at 1( 0) + 0 on 1975;
+  architecture behavior of iand at 11( 186) + 0 on 1976;
+file . "hlt.vhdl" "986b64efb7dd0c5ab2e24d170b98cfb7796a3f57" "20240519201008.828":
+  entity ihlt at 1( 0) + 0 on 1993;
+  architecture behavior of ihlt at 11( 186) + 0 on 1994;
+file . "jcond.vhdl" "b1e0198114ebc409459ef073c6a0c53b13f855cb" "20240519201008.829":
+  entity ijcond at 1( 0) + 0 on 1995;
+  architecture behavior of ijcond at 12( 216) + 0 on 1996;
+file . "jmp.vhdl" "e1e4e9838dced4f221621200d0d2440f05576f16" "20240519201008.830":
+  entity ijmp at 1( 0) + 0 on 1997;
+  architecture behavior of ijmp at 11( 186) + 0 on 1998;
+file . "lda.vhdl" "32f5fb8d2e81745dbf8cd3211348105044499783" "20240519201008.831":
+  entity ilda at 1( 0) + 0 on 1999;
+  architecture behavior of ilda at 11( 186) + 0 on 2000;
+file . "nop.vhdl" "fe3dd58e21fac7f4e09c5059320d7743b567380b" "20240519201008.841":
+  entity inop at 1( 0) + 0 on 2013;
+  architecture behavior of inop at 11( 186) + 0 on 2014;
+file . "not.vhdl" "c1a6751ab9cee997a2fa6b451c517f70535db85a" "20240519201008.842":
+  entity inot at 1( 0) + 0 on 2015;
+  architecture behavior of inot at 11( 186) + 0 on 2016;
+file . "or.vhdl" "9ecaba536c6316d2dd1c4f620c9acb73a989d9db" "20240519201008.843":
+  entity ior at 1( 0) + 0 on 2017;
+  architecture behavior of ior at 11( 185) + 0 on 2018;
+file . "sta.vhdl" "9102bce044a0bd1cd19b2251f832ae4f530933ce" "20240519201008.855":
+  entity ista at 1( 0) + 0 on 2037;
+  architecture behavior of ista at 11( 186) + 0 on 2038;
